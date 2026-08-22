@@ -34,7 +34,6 @@ modules:
         - dankcalendar-git
         - danksearch
         - waterfox
-        - windscribe
       exclude:
         - firefox
         - alacritty
