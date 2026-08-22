@@ -14,12 +14,12 @@ image-version: latest # You can pin to a specific version of Fedora as well
 modules:
   - type: dnf
     repos:
+      copr: avengemedia/dms
       files:
         - https://negativo17.org/repos/fedora-spotify.repo
         - https://download.opensuse.org/repositories/isv:/BrowserWorks/Fedora_%OS_VERSION%/isv:BrowserWorks.repo
         - https://windscribe.com/install/desktop/linux_rpm_x64
-      nonfree: rpmfusion
-      copr: avengemedia/dms
+      nonfree: rpmfusion      
     install:
       packages:
         - spotify-client
