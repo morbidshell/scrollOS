@@ -19,10 +19,10 @@ modules:
       files:
         - https://negativo17.org/repos/fedora-spotify.repo
         - https://download.opensuse.org/repositories/isv:/BrowserWorks/Fedora_%OS_VERSION%/isv:BrowserWorks.repo
-        - https://windscribe.com/install/desktop/linux_rpm_x64
       nonfree: rpmfusion      
     install:
       packages:
+        - https://windscribe.com/install/desktop/linux_rpm_x64/
         - spotify-client
         - niri
         - dms
