@@ -46,6 +46,8 @@ modules:
         - gstreamer1-plugins-bad-free
         - gstreamer1-plugins-good
         - gstreamer1-plugins-ugly
+        - mesa-va-drivers-freeworld
+        - mesa-va-drivers-freeworld.i686
         - cinnamon-translations
         - quickshell-git
         - dankcalendar-git
