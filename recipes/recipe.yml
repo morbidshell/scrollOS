@@ -60,4 +60,19 @@ modules:
         - alacritty
         - waybar
         - fuzzel
+  - type: default-flatpaks
+    configurations:
+      - scope: system
+        repo:
+        title: Flathub (system)
+        install: # system flatpaks we want all users to have and not remove
+        - org.gnome.Evince
+        - com.github.tchx84.Flatseal
+        - io.github.flattool.Warehouse
+        - org.videolan.VLC
+    type: systemd
+    user:
+    enabled:
+     - niri.service 
+     - dms.service     
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
