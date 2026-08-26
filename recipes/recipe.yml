@@ -52,6 +52,9 @@ modules:
         - dankcalendar-git
         - danksearch
         - waterfox
+        - adw-gtk3-theme
+        - qt5ct
+        - qt6ct-kde
       exclude:
         - firefox
         - alacritty
