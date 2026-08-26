@@ -59,10 +59,8 @@ modules:
         - fuzzel
   - type: default-flatpaks
     configurations:
-      - scope: system
-        repo:
-        title: Flathub (system)
-        install: # system flatpaks we want all users to have and not remove
+    - scope: system
+      install:
         - org.gnome.Evince
         - com.github.tchx84.Flatseal
         - io.github.flattool.Warehouse
