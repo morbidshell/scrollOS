@@ -27,7 +27,7 @@ modules:
     install:
       packages:
         - https://windscribe.com/install/desktop/linux_rpm_x64/
-        - #spotify-client
+        #- spotify-client
         - niri
         - dms
         - dms-greeter
