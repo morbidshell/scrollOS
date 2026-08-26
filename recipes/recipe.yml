@@ -55,6 +55,7 @@ modules:
         - adw-gtk3-theme
         - qt5ct
         - qt6ct-kde
+        - papirus-icon-theme
       exclude:
         - firefox
         - alacritty
