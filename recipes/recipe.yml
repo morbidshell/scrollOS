@@ -48,6 +48,8 @@ modules:
         - gstreamer1-plugins-ugly
         - mesa-va-drivers-freeworld
         - mesa-va-drivers-freeworld.i686
+        - mesa-libGLU.i686
+        - mesa-libGLU.x86_64
         - cinnamon-translations
         - quickshell-git
         - dankcalendar-git
